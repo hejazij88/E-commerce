@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Domain;
+using E_commerce.Domain.OrderAgg;
 
 namespace E_commerce.Domain.PaymentAgg;
 
@@ -8,6 +9,8 @@ public class Payment:EntityBase
     public DateTime PaymentDate { get; private set; }
     public float Amount { get; private set; }
     public string PaymentMethod { get; private set; }
+
+    public Order Order { get; private set; }
 
     public Payment(Guid orderId, DateTime paymentDate, float amount, string paymentMethod)
     {

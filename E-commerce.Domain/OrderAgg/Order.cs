@@ -1,4 +1,6 @@
 ﻿using _0_Framework.Domain;
+using E_commerce.Domain.CartAgg;
+using E_commerce.Domain.PaymentAgg;
 
 namespace E_commerce.Domain.OrderAgg;
 
@@ -8,6 +10,12 @@ public class Order:EntityBase
     public DateTime OrderDate { get; private set; }
     public string Status { get; private set; }
     public float Amount { get; private set; }
+    public Guid CartId { get; private set; }
+    public Cart Cart { get; private set; }
+    public Payment Payment { get; private set; }
+
+
+
 
     public Order(Guid userId , string status, float amount)
     {
