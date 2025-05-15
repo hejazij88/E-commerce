@@ -15,6 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.Application", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.Application.Contact", "E-Commerce.Application.Contact\E-Commerce.Application.Contact.csproj", "{59124C75-B3E6-4EAD-9872-15276217C609}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "E-commerce.Infrastructure", "E-commerce.Infrastructure", "{DF775054-C097-4E8B-A796-A158C01465DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.Infrastructure.Configuration", "E-Commerce.Infrastructure.Configuration\E-Commerce.Infrastructure.Configuration.csproj", "{4C9615FC-DD22-4E98-8B4E-984A4BFC8C2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.Infrastructure.EFCore", "E-commerce.Infrastructure.EFCore\E-commerce.Infrastructure.EFCore.csproj", "{68BA3046-1E9F-4EDF-8B21-53C1E2152BEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +43,14 @@ Global
 		{59124C75-B3E6-4EAD-9872-15276217C609}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59124C75-B3E6-4EAD-9872-15276217C609}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59124C75-B3E6-4EAD-9872-15276217C609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9615FC-DD22-4E98-8B4E-984A4BFC8C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9615FC-DD22-4E98-8B4E-984A4BFC8C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9615FC-DD22-4E98-8B4E-984A4BFC8C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9615FC-DD22-4E98-8B4E-984A4BFC8C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68BA3046-1E9F-4EDF-8B21-53C1E2152BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68BA3046-1E9F-4EDF-8B21-53C1E2152BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68BA3046-1E9F-4EDF-8B21-53C1E2152BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68BA3046-1E9F-4EDF-8B21-53C1E2152BEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +59,7 @@ Global
 		{FE2EDDAA-9A16-4F3D-A707-D93258C6922C} = {5D328336-47E5-4333-B22C-E965CEE795F7}
 		{45A725D9-FB64-499A-9B6F-BE39B294D4C0} = {76A0FC10-BC9C-4FE6-AA5A-ECCE12759654}
 		{59124C75-B3E6-4EAD-9872-15276217C609} = {76A0FC10-BC9C-4FE6-AA5A-ECCE12759654}
+		{4C9615FC-DD22-4E98-8B4E-984A4BFC8C2A} = {DF775054-C097-4E8B-A796-A158C01465DC}
+		{68BA3046-1E9F-4EDF-8B21-53C1E2152BEC} = {DF775054-C097-4E8B-A796-A158C01465DC}
 	EndGlobalSection
 EndGlobal
