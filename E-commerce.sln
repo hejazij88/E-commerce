@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.Domain", "E-comm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0_Framework", "0_Framework\0_Framework.csproj", "{8D3CC5FA-498B-4F2F-BD70-C3BC358102AE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "E-commerce.Aplication", "E-commerce.Aplication", "{76A0FC10-BC9C-4FE6-AA5A-ECCE12759654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.Application", "E-Commerce.Application\E-Commerce.Application.csproj", "{45A725D9-FB64-499A-9B6F-BE39B294D4C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.Application.Contact", "E-Commerce.Application.Contact\E-Commerce.Application.Contact.csproj", "{59124C75-B3E6-4EAD-9872-15276217C609}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +29,21 @@ Global
 		{8D3CC5FA-498B-4F2F-BD70-C3BC358102AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D3CC5FA-498B-4F2F-BD70-C3BC358102AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D3CC5FA-498B-4F2F-BD70-C3BC358102AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A725D9-FB64-499A-9B6F-BE39B294D4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A725D9-FB64-499A-9B6F-BE39B294D4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A725D9-FB64-499A-9B6F-BE39B294D4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A725D9-FB64-499A-9B6F-BE39B294D4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59124C75-B3E6-4EAD-9872-15276217C609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59124C75-B3E6-4EAD-9872-15276217C609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59124C75-B3E6-4EAD-9872-15276217C609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59124C75-B3E6-4EAD-9872-15276217C609}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FE2EDDAA-9A16-4F3D-A707-D93258C6922C} = {5D328336-47E5-4333-B22C-E965CEE795F7}
+		{45A725D9-FB64-499A-9B6F-BE39B294D4C0} = {76A0FC10-BC9C-4FE6-AA5A-ECCE12759654}
+		{59124C75-B3E6-4EAD-9872-15276217C609} = {76A0FC10-BC9C-4FE6-AA5A-ECCE12759654}
 	EndGlobalSection
 EndGlobal
