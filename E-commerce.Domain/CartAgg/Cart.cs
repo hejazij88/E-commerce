@@ -13,17 +13,16 @@ public class Cart:EntityBase
     public Order Order { get; private set; }
 
 
-    public Cart(Guid userId,Product product)
+    public Cart(Guid userId,List<Product> product)
     {
         UserId = userId;
         CreationDate = DateTime.Now;
-        Products.Add(product);
+        Products=product;
     }
     
-    public void Edit(Guid userId, DateTime creationDate,List<Product> products)
+    public void Edit(Guid userId,List<Product> products)
     {
         UserId = userId;
-        CreationDate = creationDate;
         Products= products;
     }
 

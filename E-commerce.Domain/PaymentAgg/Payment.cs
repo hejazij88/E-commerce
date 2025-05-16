@@ -12,10 +12,10 @@ public class Payment:EntityBase
 
     public Order Order { get; private set; }
 
-    public Payment(Guid orderId, DateTime paymentDate, float amount, string paymentMethod)
+    public Payment(Guid orderId, float amount, string paymentMethod)
     {
         OrderId = orderId;
-        PaymentDate = paymentDate;
+        PaymentDate = DateTime.Now;
         Amount = amount;
         PaymentMethod = paymentMethod;
     }
