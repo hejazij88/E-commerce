@@ -8,7 +8,7 @@ public class Order:EntityBase
 {
     public Guid UserId { get;private set; }
     public DateTime OrderDate { get; private set; }
-    public string Status { get; private set; }
+    public string Status { get; set; }
     public float Amount { get; private set; }
     public Guid CartId { get; private set; }
     public Cart Cart { get; private set; }
@@ -17,12 +17,17 @@ public class Order:EntityBase
 
 
 
-    public Order(Guid userId , string status, float amount)
+    public Order(Guid userId , string status, Cart cart)
     {
         UserId = userId;
         Status = status;
-        Amount = amount;
+        Amount = CalculateAmount(cart);
         OrderDate = DateTime.Now;
+    }
+
+    private float CalculateAmount(Cart cart)
+    {
+        return cart.Products.Sum(p => p.Price);
     }
 
     public void Edit(Guid userId, string status, float amount)

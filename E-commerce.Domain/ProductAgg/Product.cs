@@ -13,7 +13,7 @@ namespace E_commerce.Domain.ProductAgg
     {
         public string Name { get;private set; }
         public string Description { get;private set; }
-        public double Price { get;private set; }
+        public float Price { get;private set; }
         public int Stock { get; private set; }
 
         public Guid CategoryId { get;private set; }
@@ -22,7 +22,7 @@ namespace E_commerce.Domain.ProductAgg
         public List<Cart> Carts { get; private set; }
 
 
-        public Product(string name, string description, double price, int stock)
+        public Product(string name, string description, float price, int stock)
         {
             Name = name;
             Description = description;
@@ -30,7 +30,7 @@ namespace E_commerce.Domain.ProductAgg
             Stock = stock;
         }
 
-        public void Edit(string name, string description, double price, int stock)
+        public void Edit(string name, string description, float price, int stock)
         {
             Name = name;
             Description = description;

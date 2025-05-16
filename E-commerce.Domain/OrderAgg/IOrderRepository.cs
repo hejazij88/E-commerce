@@ -5,7 +5,7 @@ namespace E_commerce.Domain.OrderAgg;
 
 public interface IOrderRepository:IRepository<Guid,Order>
 {
-    void PlaceOrder(Guid userId, Cart cart);
+    void PlaceOrder(Order order);
     Order TrackOrder(Guid orderId);
     void CancelOrder(Guid orderId);
 }
