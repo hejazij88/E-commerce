@@ -4,6 +4,5 @@ public interface IUserServices
 {
     void CreateAccount(CreateUser createUser);
     void EditAccount(EditUser editUser);
-    EditUser GetAccount(Guid id);
     void LogOut();
 }

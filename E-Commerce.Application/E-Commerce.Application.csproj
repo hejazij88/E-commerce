@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\E-Commerce.Application.Contact\E-Commerce.Application.Contact.csproj" />
+    <ProjectReference Include="..\E-commerce.Infrastructure.Identity\E-commerce.Infrastructure.Identity.csproj" />
   </ItemGroup>
 
 </Project>

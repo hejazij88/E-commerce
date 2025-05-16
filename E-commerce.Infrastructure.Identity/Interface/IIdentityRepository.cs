@@ -7,5 +7,6 @@ public interface IIdentityRepository
     void Register(IdentityUser user);
     void LogIn(IdentityUser user);
     void LogOut();
+    void SaveChange();
 
 }

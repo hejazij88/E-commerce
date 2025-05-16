@@ -29,4 +29,9 @@ public class IdentityRepository:IIdentityRepository
     {
         _signInManager.SignOutAsync();
     }
+
+    public void SaveChange()
+    {
+        _context.SaveChanges();
+    }
 }
