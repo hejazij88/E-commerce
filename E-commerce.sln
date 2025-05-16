@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35728.132 d17.12
+VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "E-commerce.Domain", "E-commerce.Domain", "{5D328336-47E5-4333-B22C-E965CEE795F7}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.Infrastructure.Configuration", "E-Commerce.Infrastructure.Configuration\E-Commerce.Infrastructure.Configuration.csproj", "{4C9615FC-DD22-4E98-8B4E-984A4BFC8C2A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.Infrastructure.EFCore", "E-commerce.Infrastructure.EFCore\E-commerce.Infrastructure.EFCore.csproj", "{68BA3046-1E9F-4EDF-8B21-53C1E2152BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.Infrastructure.Identity", "E-commerce.Infrastructure.Identity\E-commerce.Infrastructure.Identity.csproj", "{4487BB1E-1C94-473A-AD93-8E112CB4051B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{68BA3046-1E9F-4EDF-8B21-53C1E2152BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68BA3046-1E9F-4EDF-8B21-53C1E2152BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68BA3046-1E9F-4EDF-8B21-53C1E2152BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4487BB1E-1C94-473A-AD93-8E112CB4051B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4487BB1E-1C94-473A-AD93-8E112CB4051B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4487BB1E-1C94-473A-AD93-8E112CB4051B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4487BB1E-1C94-473A-AD93-8E112CB4051B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,5 +67,6 @@ Global
 		{59124C75-B3E6-4EAD-9872-15276217C609} = {76A0FC10-BC9C-4FE6-AA5A-ECCE12759654}
 		{4C9615FC-DD22-4E98-8B4E-984A4BFC8C2A} = {DF775054-C097-4E8B-A796-A158C01465DC}
 		{68BA3046-1E9F-4EDF-8B21-53C1E2152BEC} = {DF775054-C097-4E8B-A796-A158C01465DC}
+		{4487BB1E-1C94-473A-AD93-8E112CB4051B} = {DF775054-C097-4E8B-A796-A158C01465DC}
 	EndGlobalSection
 EndGlobal
