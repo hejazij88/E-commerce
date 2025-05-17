@@ -15,7 +15,7 @@ public class UserServices:IUserServices
 
     public void CreateAccount(CreateUser createUser)
     {
-        _repository.Register(new IdentityUser(){UserName = createUser.Email,NormalizedUserName = createUser.FirsName+createUser.LastName,PasswordHash = createUser.Password,PhoneNumber = createUser.Phone});
+        _repository.Register( createUser.Email, createUser.Password , createUser.FirsName+createUser.LastName,createUser.Phone);
         _repository.SaveChange();
     }
 

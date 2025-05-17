@@ -16,9 +16,9 @@ public class IdentityRepository:IIdentityRepository
         _userManager = userManager;
     }
 
-    public void Register(IdentityUser user)
+    public void Register(string userName, string password, string name, string phone)
     {
-        _userManager.CreateAsync(user);
+        _userManager.CreateAsync(new IdentityUser(userName),password);
     }
 
     public void LogIn(IdentityUser user)
